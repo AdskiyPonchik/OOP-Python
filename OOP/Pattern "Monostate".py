@@ -1,7 +1,7 @@
 class ThreadData:
     __shared_data = {
         'name': 'thread_1',
-        'data': {},
+        'raw_data': {},
         'id': 1,
     }
     def __init__(self):

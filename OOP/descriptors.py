@@ -6,7 +6,7 @@ class ReadIntX:
         return getattr(instance, self.name)
 
 
-class Integer:  # data-descriptor
+class Integer:  # raw_data-descriptor
     @classmethod
     def verify_coord(cls, coord):
         if type(coord) != int:
